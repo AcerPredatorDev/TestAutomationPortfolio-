@@ -1,0 +1,18 @@
+# Playwright Tests
+
+Deze map bevat geautomatiseerde webtests geschreven met Playwright voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). Playwright ondersteunt het testen in verschillende browsers en is ideaal voor moderne, dynamische webapplicaties.
+
+## Inhoud
+- **login_tests.spec.js**: Test voor de login functionaliteit.
+- **andere_tests.spec.js**: Andere tests voor verschillende onderdelen van de website.
+
+## Vereisten
+- **Node.js en npm**
+
+## Installatie
+1. Installeer Playwright via npm:
+   ```bash
+   npm install @playwright/test
+npx playwright install
+npx playwright test
+
