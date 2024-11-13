@@ -1,0 +1,26 @@
+
+---
+
+### **Cucumber README.md**
+
+Bestandslocatie: `Cucumber/README.md`
+
+```markdown
+# Cucumber Tests
+
+Deze map bevat BDD (Behavior Driven Development) tests geschreven met Cucumber voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). Cucumber maakt gebruik van Gherkin-syntax om testscenario's in een begrijpelijke taal te beschrijven, zodat zowel technische als niet-technische teamleden de tests kunnen lezen.
+
+## Inhoud
+- **features/login.feature**: Scenario's voor de login functionaliteit.
+- **features/andere_feature.feature**: Andere scenario's voor verschillende onderdelen van de website.
+
+## Vereisten
+- **Node.js en npm**
+- **Cucumber.js** (voor JavaScript-implementaties) of **Cucumber voor Python** als je in Python werkt.
+
+## Installatie (voor JavaScript implementatie)
+1. Installeer Cucumber via npm:
+   ```bash
+   npm install @cucumber/cucumber --save-dev
+npx cucumber-js
+
