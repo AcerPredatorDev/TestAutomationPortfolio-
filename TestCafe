@@ -1,0 +1,16 @@
+# TestCafe Tests
+
+Deze map bevat front-end geautomatiseerde tests geschreven met TestCafe voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). TestCafe is een eenvoudige, betrouwbare tool voor het testen van moderne webapplicaties zonder WebDriver.
+
+## Inhoud
+- **login_tests.js**: Test voor de login functionaliteit.
+- **andere_tests.js**: Andere tests voor verschillende onderdelen van de website.
+
+## Vereisten
+- **Node.js en npm**
+
+## Installatie
+1. Installeer TestCafe via npm:
+   ```bash
+   npm install testcafe
+npx testcafe chrome tests/login_tests.js
