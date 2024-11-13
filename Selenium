@@ -1,0 +1,17 @@
+# Selenium Tests
+
+Deze map bevat geautomatiseerde tests geschreven met Selenium en Python voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). Selenium wordt gebruikt om webtests te automatiseren en biedt uitgebreide ondersteuning voor verschillende browsers en besturingssystemen.
+
+## Inhoud
+- **login_tests.py**: Testen voor de login functionaliteit.
+- **andere_tests.py**: Andere tests voor verschillende onderdelen van de website.
+
+## Vereisten
+- **Python 3.8 of hoger**
+- **Selenium WebDriver**
+
+## Installatie
+1. Installeer de benodigde Python-pakketten:
+   ```bash
+   pip install selenium
+python tests/login_tests.py
