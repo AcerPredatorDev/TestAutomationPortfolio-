@@ -1,0 +1,25 @@
+
+---
+
+### **Cypress README.md**
+
+Bestandslocatie: `Cypress/README.md`
+
+```markdown
+# Cypress Tests
+
+Deze map bevat front-end geautomatiseerde tests geschreven met Cypress voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). Cypress is een JavaScript-gebaseerde tool die wordt gebruikt voor end-to-end testen van webapplicaties en biedt snelle en betrouwbare tests in de browser.
+
+## Inhoud
+- **integration/login_tests.spec.js**: Testen voor de login functionaliteit.
+- **integration/andere_tests.spec.js**: Andere tests voor verschillende onderdelen van de website.
+
+## Vereisten
+- **Node.js en npm**
+
+## Installatie
+1. Installeer Cypress via npm:
+   ```bash
+   npm install cypress --save-dev
+npx cypress open
+npx cypress run

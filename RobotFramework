@@ -1,0 +1,21 @@
+# RobotFramework Tests
+
+Deze map bevat geautomatiseerde tests geschreven met RobotFramework en Playwright voor de website [PracticeSoftwareTesting.com](https://practicesoftwaretesting.com). RobotFramework is een gebruiksvriendelijke en krachtige testautomatiseringsoplossing die goed integreert met verschillende libraries, waaronder Playwright voor webautomatisering.
+
+## Inhoud
+- **login_tests_simple.robot**: Happy flow testen voor de login functionaliteit.
+- **login_tests_advanced.robot**: Geavanceerde tests voor verschillende scenario's binnen de login-functionaliteit.
+- **producten_tests.robot**: Tests voor de productpagina's.
+
+## Vereisten
+- **Python 3.8 of hoger**
+- **RobotFramework**
+- **RobotFramework Browser Library** (voor integratie met Playwright)
+
+## Installatie
+1. Installeer de benodigde Python-pakketten:
+   ```bash
+   pip install -r requirements.txt
+playwright install
+robot -d results tests/login_tests_simple.robot
+
